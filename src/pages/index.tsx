@@ -1,5 +1,5 @@
 import Layout from "../components/Layout"
-import Seo from "../components/Seoa"
+import Seo from "../components/Seo"
 import Countdown from "../components/Countdown"
 
 const IndexPage = () => (

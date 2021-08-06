@@ -1,8 +1,8 @@
 
 import { ReactNode } from "react"
-import "nes.css/css/nes.min.css";
 import "./Layout.css"
 import { StaticImage } from "gatsby-plugin-image"
+import { Helmet } from "react-helmet"
 
 interface LayoutProps {
   children: ReactNode
@@ -10,6 +10,9 @@ interface LayoutProps {
 const Layout = ({ children }: LayoutProps) => {
   return (
     <div className="container">
+      <Helmet>
+        <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
+      </Helmet>
       <StaticImage
         className="background"
         layout="fullWidth"

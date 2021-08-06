@@ -55,6 +55,12 @@ export default function Countdown({ date }: { date: string }) {
                     <h3>Segundos</h3>
                 </div>
             </div>
+            <div className="reservation">
+                <a className="nes-btn" href="https://www.santarenahotel.com/reservation" target="_blank" rel="noopener noreferrer">
+                    Reserva ya!
+                </a>
+            </div>
+
         </div>
     )
 }

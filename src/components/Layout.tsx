@@ -24,15 +24,11 @@ const Layout = ({ children }: LayoutProps) => {
         formats={["auto", "webp", "avif"]}
       />
       <main>{children}</main>
-      {/* <footer
-        style={{
-          marginTop: `2rem`,
-        }}
-      >
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
-      </footer> */}
+      <footer>
+        © {new Date().getFullYear()}, Made with
+        <i className="nes-icon heart"></i> by
+        {' '}<a href="https://www.instagram.com/jhernandez.cr/" target="_blank" rel="noopener noreferrer">José</a>
+      </footer>
     </div>
   )
 }

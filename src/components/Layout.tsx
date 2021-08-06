@@ -23,12 +23,14 @@ const Layout = ({ children }: LayoutProps) => {
         }
         formats={["auto", "webp", "avif"]}
       />
-      <main>{children}</main>
-      <footer>
-        © {new Date().getFullYear()}, Made with
-        <i className="nes-icon heart"></i> by
-        {' '}<a href="https://www.instagram.com/jhernandez.cr/" target="_blank" rel="noopener noreferrer">José</a>
-      </footer>
+      <main>
+        {children}
+        <div className="footer">
+          © {new Date().getFullYear()}, Made with
+          <i className="nes-icon heart"></i> by
+          {' '}<a href="https://www.instagram.com/jhernandez.cr/" target="_blank" rel="noopener noreferrer">José</a>
+        </div>
+      </main>
     </div>
   )
 }

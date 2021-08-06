@@ -1,5 +1,5 @@
 import Layout from "../components/Layout"
-import Seo from "../components/Seo"
+import Seo from "../components/Seoa"
 
 const NotFoundPage = () => (
   <Layout>

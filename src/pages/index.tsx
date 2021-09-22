@@ -4,8 +4,8 @@ import Countdown from "../components/Countdown"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Viaje a las Catas" />
-    <Countdown date="08/22/2021" />
+    <Seo title="Focus Employee" />
+    <Countdown date="2021-09-22T16:00:00.707Z" />
   </Layout>
 )
 

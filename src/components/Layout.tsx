@@ -19,7 +19,7 @@ const Layout = ({ children }: LayoutProps) => {
         // aspectRatio={3 / 1}
         alt=""
         src={
-          "../images/Santarena1.jpeg"
+          "../images/matiu.jpg"
         }
         formats={["auto", "webp", "avif"]}
       />

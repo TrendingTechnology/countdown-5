@@ -35,7 +35,7 @@ export default function Countdown({ date }: { date: string }) {
     if (timeUp) return null;
     return (
         <div>
-            <h1>Viaje a las Catas</h1>
+            <h1>Focus Employee</h1>
             <h2 className="title">Faltan</h2>
             <div className="row nes-container with-title is-rounded">
                 <div className="item">
@@ -55,11 +55,11 @@ export default function Countdown({ date }: { date: string }) {
                     <h3>Segundos</h3>
                 </div>
             </div>
-            <div className="reservation">
+            {/* <div className="reservation">
                 <a className="nes-btn" href="https://www.santarenahotel.com/reservation" target="_blank" rel="noopener noreferrer">
                     Reserva ya!
                 </a>
-            </div>
+            </div> */}
 
         </div>
     )
